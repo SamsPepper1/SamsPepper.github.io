@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>What Does My Name Mean?</title>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="script/main.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.css" >
+		<link rel="stylesheet" href="css/jumbotron-narrow.css" >
+	</head>
+	<body>
+		<div class="container">
+			<div class="header clearfix">
+				<h3 class="text-muted"> What Does My Name Mean?</h3>
+			</div>
+			<div class="jumbotron">
+				<div class="form-group">
+					<label for="usr">Enter Your Name:</label>
+					<input type="text" class="form-control" id="usr">
+					<button class="btn btn-success" id="submit">What does it mean?</button>
+				</div>	
+				<h1 id="full_name"> Callum </h1>
+			</div>
+
+
+			<div class="row marketing" id="results">
+			    <div class="col-lg-6">
+					<h2 id="first_name"></h2>
+					<p> is a word of</p>
+					<h3 id="language1"></h3>
+					<p>origin meaning:</p>
+					<h2 id="meaning1"></h2>
+				</div>
+
+
+	        	<div class="col-lg-6">
+					<h2 id="second_name"></h2>
+					<p> is a word of</p>
+					<h3 id="language2"></h3>
+					<p>origin meaning:</p>
+					<h2 id="meaning2"></h2>
+				</div>
+			</div>
+
+		</div>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
