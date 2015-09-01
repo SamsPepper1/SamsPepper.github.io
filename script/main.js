@@ -1,13 +1,13 @@
 var words1 = [	"bifurcated",
 				"topological",
-				"mainstream",
-				"golden",
 				"erstwhile",
 				"Mancunian",
 				"electronic",
 				"biodegradeable",
 				"carcinogenic",
-				"orthogonal"
+				"orthogonal",
+				"ancient",
+				"disruptive"
 			]
 
 var words2 = [	"weasel",
@@ -21,7 +21,9 @@ var words2 = [	"weasel",
 				"philanthrope",
 				"introvert",
 				"muppet",
-				"octagon"
+				"octagon",
+				"ocelot",
+				"sock"
 				]
 
 var languages = [	"Yoruba",
@@ -32,7 +34,8 @@ var languages = [	"Yoruba",
 					"Gaelic",
 					"Egyptian",
 					"Mandarin",
-					"15th century Orcish"
+					"15th century Orcish",
+					"Sanskrit"
 					]
 
 function split_name(name) {
